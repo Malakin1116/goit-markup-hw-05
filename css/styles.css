@@ -106,7 +106,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--accent-color);
+color: #404bbf;
 flex-direction: row;
 margin-right: 76px;
 padding: 24px 0 24px 0;}
@@ -156,8 +156,7 @@ gap: 40px;}
 color: var(--btn-hover-color);
 }
 
-.line:hover::after,
-.line:focus::after {
+.line::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -169,6 +168,12 @@ color: var(--btn-hover-color);
     border-radius: 2px;
     transition: #404BBF;
     margin-top: 24px;
+    opacity: 0;
+}
+
+.line:hover::after,
+.line:focus::after {
+    opacity:1;
     
 }
 
@@ -544,9 +549,6 @@ margin-bottom: 8px;
 .footer-div-one {
     margin-right: 120px;
 
-}
-
-.footer-div-two {
 }
 
 .p-social-media {
