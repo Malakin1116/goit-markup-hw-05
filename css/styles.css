@@ -382,7 +382,11 @@ main {display: block;}
 }
 
 .employees-list-img-wrapper:hover .overlay,
-.employees-list-img-wrapper:focus .overlay {transform: translateY(0%);}
+ {transform: translateY(0%);}
+
+.a-shadow-portfolio:focus .employees-list-img-wrapper .overlay {
+    transform: translateY(0%);
+  }
 
 .secend-section-box {
     display: flex;
