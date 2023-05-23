@@ -227,7 +227,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+ .new-color {
+    color: #404bbf;
+ }
 
 .modal-open-btn:hover,
 .modal-open-btn:focus {background-color: var(--btn-hover-color); }
